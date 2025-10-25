@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Registration Form</title>
+</head>
+<body>
+  <h2><center>Student Registration Form</center></h2>
+  <hr>
+  <form method="post" action="#">
+    <p>
+      <b>Full Name:</b>
+      <input type="text" name="fullname" placeholder="Enter your full name" required>
+    </p>
+
+    <p>
+      <b>Email:</b>
+      <input type="email" name="email" placeholder="Enter valid email address" required>
+    </p>
+
+    <p>
+      <b>Password:</b>
+      <input type="password" name="password" placeholder="Enter password" required>
+    </p>
+
+    <p>
+      <b>Gender:</b>
+      <input type="radio" name="gender" value="male" required> Male
+      <input type="radio" name="gender" value="female"> Female
+      <input type="radio" name="gender" value="other"> Other
+    </p>
+
+    <p>
+      <b>Course:</b>
+      <select name="course" required>
+        <option value="">-- Select Course --</option>
+        <option value="bca">BCA</option>
+        <option value="bsc">B.Sc</option>
+        <option value="bcom">B.Com</option>
+        <option value="mca">MCA</option>
+        <option value="msc">M.Sc</option>
+      </select>
+    </p>
+
+    <p>
+      <b>Contact No:</b>
+      <input type="text" name="contact" placeholder="Enter phone number" required>
+    </p>
+
+    <p>
+      <b>Address:</b><br>
+      <textarea name="address" rows="4" cols="40" placeholder="Enter your address" required></textarea>
+    </p>
+
+    <p>
+      <input type="submit" value="Register">
+      <input type="reset" value="Clear">
+    </p>
+  </form>
+
+  <hr>
+  <center>© 2025 Student Registration Portal</center>
+</body>
+</html>
