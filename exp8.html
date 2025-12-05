@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profiles</title>
+    
+    <style>
+        body {
+    font-family: 'Georgia', serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: lightpink;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+    padding: 40px;
+    margin: 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    text-align: center;
+    width: 220px;
+    border: 2px solid #007bff;
+    
+   
+}
+
+.initials-circle {
+    background-color: #007bff;
+    color: #ffffff;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 auto 15px;
+    align-items: centers;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 14px;
+    color: #555;
+}
+
+.details strong {
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="initials-circle">JK</div>
+            <div class="details">
+                <strong>Pankaj Sharma</strong>
+                <span>B.Tech - CSE</span>
+                <span>Roll No: 21CS1007</span>
+                <span>1st Year</span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="initials-circle">AR</div>
+            <div class="details">
+                <strong>Akshay Singh</strong>
+                <span>B.Tech - IT</span>
+                <span>Roll No: 21IT1012</span>
+                <span>1st Year</span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="initials-circle">RK</div>
+            <div class="details">
+                <strong>Rohit Verma</strong>
+                <span>B.Tech - ECE</span>
+                <span>Roll No: 21EC1009</span>
+                <span>1st Year</span>
+            </div>
+        </div>
+    
+</body>
+</html>
