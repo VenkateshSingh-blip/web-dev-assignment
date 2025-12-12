@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Navigation Menu Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-s
+            text-align: center;
+        }
+
+        .menu {
+            margin: 10px auto;
+            width: 80%;
+            text-align:left;
+        }
+
+        
+        .block a {
+            display: block;
+            background: #3399cc;
+            color: white;
+            padding: 8px;
+            text-decoration: none;
+            margin: 2px 0;
+        }
+
+        
+        .inline a {
+            display: left;
+            background: #5cb85c;
+            color: white;
+            padding: 5px 10px;
+            margin: 3px;
+            text-decoration: none;
+        }
+
+        /* Inline Block Example */
+        .inline-block a {
+            display: inline-block;
+            background: #9b59b6;
+            color: white;
+            padding: 6px 15px;
+            margin: 3px;
+            text-decoration: none;
+        }
+
+        /* Float Example */
+        .float a {
+            float: left;
+            background: #e67e22;
+            color: white;
+            padding: 6px 15px;
+            margin: 3px;
+            text-decoration: none;
+        }
+
+        .clear-example {
+            clear: both;
+            background-color: #f4f4f4;
+            padding:10px;
+            margin-top:20px;
+            
+        }
+
+        h3 { 
+            text-align: left;
+            width: 80%;
+            margin: 15px auto 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Navigation Menu Demo</h2>
+
+    
+    <h3>Block Example</h3>
+    <div class="menu block">
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>
+
+    
+    <h3>Inline Example</h3>
+    <div class="menu inline">
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>
+
+    
+    <h3>Inline-Block Example</h3>
+    <div class="menu inline-block">
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>
+
+    
+    
+    <h3>Float Example</h3>
+    <div class="menu float">
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>
+    <div class="clearfix"></div>
+
+</body>
+</html>
