@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Venkatesh Singh | College Portfolio</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: lightblue;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        /* Header */
+        .header {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #ddd;
+        }
+
+        .profile-img {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            border: 3px solid #333;
+            object-fit: cover;
+        }
+
+        .header-text h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+
+        .header-text p {
+            margin: 5px 0;
+            color: #555;
+        }
+
+        section {
+            margin: 20px 0;
+        }
+
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+
+        ul {
+            margin-left: 20px;
+        }
+
+        .skills li {
+            list-style-type: square;
+        }
+
+        /* Contact Form */
+        form input,
+        form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #777;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Header -->
+    <header class="header">
+        <img src="portfolio-img.jpg" alt="Venkatesh Singh" class="profile-img">
+        <div class="header-text">
+            <h1>Venkatesh Singh</h1>
+            <p>First Year Student</p>
+            <p>ABES Engineering College, Ghaziabad</p>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section>
+        <h2>About Me</h2>
+        <p>
+            I am Venkatesh Singh, a first-year B-tech computer science student at ABES Engineering College, Ghaziabad.
+            I am learning C++ programming and web development.
+        </p>
+    </section>
+
+    <!-- Education -->
+    <section>
+        <h2>Education</h2>
+        <ul>
+            <li>B.Tech(CSE) – First Year</li>
+            <li>ABES Engineering College, Ghaziabad</li>
+        </ul>
+    </section>
+
+    <!-- Skills -->
+    <section>
+        <h2>Skills</h2>
+        <ul class="skills">
+            <li>C++</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Basic Programming</li>
+        </ul>
+    </section>
+
+    <!-- Contact -->
+    <section>
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="4" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        © 2026 Venkatesh Singh
+    </footer>
+
+</div>
+
+</body>
+</html>
+
